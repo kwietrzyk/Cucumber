@@ -1,5 +1,6 @@
 Feature: Test multiplying
 
+  @Calc
   Scenario Outline: Multiplying different numbers with zero for result 0
     Given Calculator is started
     When I multiply <num1> and <num2>

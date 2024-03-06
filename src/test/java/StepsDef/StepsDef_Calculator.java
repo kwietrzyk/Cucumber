@@ -1,4 +1,4 @@
-package StepfDef;
+package StepsDef;
 
 import Calculator.Calc;
 import io.cucumber.java.en.Given;

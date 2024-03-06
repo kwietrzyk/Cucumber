@@ -1,5 +1,6 @@
 Feature: Test summing
 
+  @Calc
   Scenario Outline: Summing different numbers with zero for result <result>
     Given Calculator is started
     When I add <num1> and <num2>
@@ -10,6 +11,7 @@ Feature: Test summing
       | 0    | 0    | 0      |
       | -6   | 0    | -6     |
 
+  @Calc
   Scenario Outline: Summing different positive and negative numbers for result <result>
     Given Calculator is started
     When I add <num1> and <num2>
@@ -19,5 +21,3 @@ Feature: Test summing
       | 3    | 7    | 10      |
       | 234  | -34  | 200      |
       | -6   | -30  | -36     |
-
-  #create scenarios for different summing
